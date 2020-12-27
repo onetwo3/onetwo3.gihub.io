@@ -286,39 +286,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		width: 68em;
 	}
 
-		@media screen and (max-width: 1680px) {
-
-			.container {
-				width: 70em;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.container {
-				width: calc(100% - 100px);
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.container {
-				width: calc(100% - 100px);
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.container {
-				width: calc(100% - 40px);
-			}
-
-		}
-
-
+		
 /* Section/Article */
 
 	section,
@@ -524,14 +492,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			position: relative;
 		}
 
-		@media screen and (min-width: 981px) {
-
-			.feature-list > .row > :nth-child(-n + 2) > section {
-				border-top: 0;
-				padding-top: 0;
-			}
-
-		}
+		
 
 		.feature-list h3 {
 			color: #e97770 !important;
@@ -793,7 +754,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		}
 
         #logo img {
-            width: 250px;
+            width: 20%;
             margin: 0 0 1.25em 0;
         }
 
@@ -970,7 +931,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			#copyright a:hover {
 				color: #fff;
 			}
-
+/* *** RESIZING ***/
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -1116,6 +1077,15 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			}
 
 	}
+
+    @media screen and (min-width: 981px) {
+
+			.feature-list > .row > :nth-child(-n + 2) > section {
+				border-top: 0;
+				padding-top: 0;
+			}
+
+		}
 
     @media screen and (max-width: 980px) and (min-width: 737px) {
 
@@ -1309,7 +1279,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+        @media screen and (max-width: 736px) {
 
 		/* Basic */
 
@@ -1545,6 +1515,40 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 						}
 
 	}
+
+        @media screen and (max-width: 1680px) {
+
+			.container {
+				width: 70em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.container {
+				width: calc(100% - 100px);
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.container {
+				width: calc(100% - 100px);
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.container {
+				width: calc(100% - 40px);
+			}
+
+		}
+
+
 
 
 /* Button */
