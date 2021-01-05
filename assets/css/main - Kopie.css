@@ -221,10 +221,12 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-	}
+        justify-content: space-between;
+	   }
 
 		.row > * {
 			box-sizing: border-box;
+            
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -1441,8 +1443,7 @@ input, select, textarea {
 
 	section,
 	article {
-		margin: 0 0 4em 0;
-      
+		margin: 0 0 1em 0;
 	}
 
 	section > :last-child,
@@ -1454,7 +1455,8 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
+		padding: 4em 0 1em 0;
+        text-align: left;
 	}
 
 		header.style1 h2 {
@@ -1808,7 +1810,7 @@ input, select, textarea {
 
 		ul.actions li {
 			display: inline-block;
-			margin: 0.75em 0 0.75em;
+			margin: 0 0.75em 0 0.75em;
 			padding-left: 0;
 		}
 
@@ -1827,7 +1829,7 @@ input, select, textarea {
 /* Feature List */
 
 	.feature-list {
-		max-width: 58em;
+		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
@@ -1835,9 +1837,8 @@ input, select, textarea {
 	}
 
 		.feature-list section {
-			border-top: solid 1px #eee;
-			padding-top: 3em;
-			padding-left: 5em;
+			padding-top: 2em;
+			padding-left: 1em;
 			position: relative;
 		}
 
@@ -1883,7 +1884,6 @@ input, select, textarea {
 /* Icons */
 
 	.icon {
-		text-decoration: none;
 		text-decoration: none;
 	}
 
@@ -1957,7 +1957,6 @@ input, select, textarea {
 	.wrapper {
 		position: relative;
 		padding: 6em 0 9em 0;
-        
 	}
 
 		.wrapper .title {
@@ -1977,32 +1976,10 @@ input, select, textarea {
 			margin-bottom: -3.25em;
 			margin-left: -12.5em;
 			padding-top: 0.5em;
-            
+            white-space: nowrap;
+            border-radius: 0.35em 0.35em 0 0;
 		}
 
-			.awrapper .title:before {
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				left: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
-
-			.awrapper .title:after {
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
-				transform: scaleX(-1);
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				right: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
 
 		.wrapper.style1 {
 			background: #e97770 url("images/overlay.png");
@@ -2110,22 +2087,15 @@ input, select, textarea {
 			font-size: 0.9em;
 		}
 
-        #logo img {
-            width: 250px;
-            margin: 0 0 1.25em 0;
-        }
-
 /* Nav */
 
 	#nav {
-		position: fixed;
-        display: block;
-        top: 2.5em;
+		position: absolute;
+		display: block;
+		top: 2.5em;
 		left: 0;
 		width: 100%;
 		text-align: center;
-        z-index: 9999;
-        
 	}
 
 		#nav > ul {
@@ -2133,8 +2103,6 @@ input, select, textarea {
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
-            background: url("../../images/banner.jpg") center center;
-            
 		}
 
 			#nav > ul > li {
@@ -2189,8 +2157,8 @@ input, select, textarea {
 		.dropotron.level-0 {
 			margin-top: -1px;
 			margin-left: 0;
-			border-top-left-radius: 1;
-			border-top-right-radius: 1;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
 		}
 
 		.dropotron a, .dropotron span {
@@ -2217,14 +2185,6 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-        .dropotron li:first-child ul li ul a, .dropotron li:first-child span {
-				border-top: 0;
-			}
-
-        .dropotron li:first-child ul a, .dropotron li:first-child span {
-				border-top: solid 1px rgba(255, 255, 255, 0.15);
-			}
-            
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
 			}
@@ -2274,13 +2234,13 @@ input, select, textarea {
 		margin-top: 5em;
 	}
 
-/* Highlights */
+/* Picture Book */
 
-	#highlights .highlight {
+	#picturebook .highlight {
 		text-align: center;
 	}
 
-		#highlights .highlight h3 {
+		#picturebook .highlight h3 {
 			color: #e97770;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
@@ -2295,8 +2255,25 @@ input, select, textarea {
 		background: #282b34 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
-		padding-bottom: 6em;
+		padding-bottom: 2em;
+        text-align: center;
+        
 	}
+#footer a {
+    text-decoration: none;
+}
+        #footer .fab:hover, #footer .fa:hover {
+    color: #fff;
+        background-image: radial-gradient(20px circle at center,#fff 1%,transparent);
+    text-decoration: none;
+}
+#footer section {
+    display: inline-block;
+    margin: 1em 2em;
+}
+#footer .container{
+    white-space: nowrap;
+}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
 			color: #fff;
@@ -2509,6 +2486,7 @@ input, select, textarea {
 
 	#navPanel, #titleBar {
 		display: none;
+        white-space: nowrap;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2560,7 +2538,7 @@ input, select, textarea {
 
 		/* Highlights */
 
-			#highlights .highlight {
+			#picturebook .highlight {
 				max-width: 40em;
 				margin-left: auto;
 				margin-right: auto;
@@ -2621,6 +2599,7 @@ input, select, textarea {
 
 				#titleBar .title {
 					display: none;
+                    
 				}
 
 				#titleBar .toggle {
@@ -2882,6 +2861,7 @@ input, select, textarea {
 					margin-bottom: -2.5em;
 					margin-left: -9em;
 					padding-top: 0.5em;
+                    
 				}
 
 					.wrapper .title:before, .wrapper .title:after {
