@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("fontawesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
@@ -94,8 +94,8 @@
 	}
 
 	hr {
-		border-top: solid 1px #82b440;
-		border: 0;
+		border-top: solid 1px white;
+		border: 1;
 		margin-bottom: 1.5em;
 	}
 
@@ -112,12 +112,13 @@
 	header.major {
 		padding-bottom: 3em;
 		text-align: center;
-		text-transform: uppercase;
+		
 	}
 
 		header.major h2 {
 			font-size: 2.6em;
 			font-weight: 700;
+            text-transform: uppercase;
 		}
 
 		header.major .byline {
@@ -504,7 +505,7 @@
 				.wrapper.style2 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
-					text-transform: capitalize;
+					text-transform: none;
 					font-size: 1.4em;
 				}
 
@@ -540,7 +541,6 @@
 				.wrapper.style3 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
-					text-transform: capitalize;
 					font-size: 1.4em;
 				}
 
@@ -863,6 +863,9 @@
 		font-weight: 700;
 	}
 
+.container * {
+    /*border: 1px solid red;*/
+}
 /* Gallery */
 /*#gallery * {
     border: 1px solid red;
