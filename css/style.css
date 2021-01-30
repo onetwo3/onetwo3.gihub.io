@@ -559,6 +559,14 @@
             text-decoration: none;
             
         }
+.wrapper .style3 image {
+    display: block;
+				width: 95%;
+				margin: 0em auto;  
+}
+.wrapper.style3 .image img {
+                    max-width: 100%;
+                }
 			
 
 			
