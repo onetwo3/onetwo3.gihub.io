@@ -8,3 +8,13 @@ new Glider(document.querySelector('.glider'), {
     next: '.glider-next'
   }
 });
+new Glider(document.querySelector('.glider2'), {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true,
+  dots: '.dots2',
+  arrows: {
+    prev: '.glider2-prev',
+    next: '.glider2-next'
+  }
+});
