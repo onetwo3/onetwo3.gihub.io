@@ -30,12 +30,12 @@ h2 {
 /*+++COLUMNS+++*/
 .col2 {
     display: grid;
-    grid-template-columns:  repeat(2,1fr);
+    grid-template-columns:  repeat(auto-fit,minmax(300px, 1fr));
     grid-column-gap: 5em;
 }
 .col3 {
     display: grid;
-    grid-template-columns:  repeat(3,1fr);
+    grid-template-columns:  repeat(auto-fit,minmax(300px, 1fr));
     grid-column-gap: 3em;
 }
 
@@ -45,9 +45,10 @@ h2 {
     min-height: 100vh;
     /*min-width: 100vw;*/
     width: 100%;
-    padding: 5vh 5vw 5vh;
+    padding: 5vh 5vw 15vh;
     
 }
+/*+++HOME+++*/
 .wrapper.home {
     background-image: url(../images/logoSun.png), url(../images/banner.jpg);
     background-repeat: no-repeat, no-repeat;
@@ -58,20 +59,35 @@ h2 {
     text-transform: uppercase;
     font-weight: 300;
 }
+.wrapper.home2 {
+    min-height: inherit;
+    min-width: 250px;
+    padding: 2vh 5vw 0vh;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+/*+++KANAL+++*/
 .wrapper.kanal {
     
 }
+/*+++VEREIN+++*/
 .wrapper.verein {
     background: #555555;
     color: white;
 }
-.wrapper.gallery {
+.verein .button a {
+    background-color: #bbbbbb;
+  color: #555555;
+}
+.verein .button a:hover, .verein .button a:active {
+    background-color: #ddd;
+}
+/*+++BILDER+++*/
+.wrapper.bilder {
     background: #82b440;
     color: white;
 }
-.wrapper.style1 {
 
-}
 
 .wrapper.details .fas, h3 {
     display: inline-block;
@@ -96,10 +112,10 @@ header p {
 /*+++BUTTON+++*/
 .button { 
     text-align: center;
-    padding: 1em;
+    padding: 3em 0 1em;
 }
 .button a {
-    background-color: #82b440;
+  background-color: #82b440;
   color: white;
   padding: 15px 25px;
   text-align: center;
