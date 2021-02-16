@@ -30,12 +30,21 @@ h2 {
 /*+++COLUMNS+++*/
 .col2 {
     display: grid;
+    column-count: 2;
+    grid-column-gap: 3em;
     grid-template-columns:  repeat(auto-fit,minmax(300px, 1fr));
-    grid-column-gap: 5em;
+    
 }
 .col3 {
     display: grid;
-    grid-template-columns:  repeat(auto-fit,minmax(300px, 1fr));
+    column-count: 3;
+    grid-template-columns:  repeat(auto-fit,minmax(250px, 1fr));
+    grid-column-gap: 3em;
+}
+.col4 {
+    display: grid;
+    column-count: 4;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-column-gap: 3em;
 }
 
@@ -50,7 +59,7 @@ h2 {
 }
 /*+++HOME+++*/
 .wrapper.home {
-    background-image: url(../images/logoSun.png), url(../images/banner.jpg);
+    background-image: url(../images/Logo_NFSK_V2.png), url(../images/banner.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center center, center center;
     background-size: 30%, cover;
@@ -83,8 +92,15 @@ h2 {
 .verein .button a:hover, .verein .button a:active {
     background-color: #ddd;
 }
+/*+++MITMACHEN+++*/
+.wrapper.mitmachen {
+    background: cornflowerblue ;
+    color: white;
+    text-align: center;
+}
+
 /*+++BILDER+++*/
-.wrapper.bilder {
+.wrapper.galerie {
     background: #82b440;
     color: white;
 }

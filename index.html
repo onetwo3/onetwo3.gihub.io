@@ -19,16 +19,15 @@
         
         <nav>
             <ul class="menu">
-                
+                 <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
               <!--<li class="logo"><a href="#">Stadtkanal.</a></li>-->
-              <li class="item"><a href="#">Home</a></li>
-              <li class="item"><a href="#">der Stadtkanal</a></li>
-              <li class="item"><a href="#">der Verein</a></li>
-              <li class="item"><a href="#">Bilder &amp; Pläne</a></li>
-              <li class="item"><a href="#">Unterstützung</a></li>
+              <li class="item"><a href="#kanal">der Stadtkanal</a></li>
+              <li class="item"><a href="#verein">der Verein</a></li>
+              <li class="item"><a href="#galerie">Bilder &amp; Pläne</a></li>
+              <li class="item"><a href="#mitmachen">Mitmachen</a></li>
               <li class="item"><a href="#">Aktuelles</a></li>
 
-              <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+             
             </ul>
         </nav>
     </div>
@@ -85,62 +84,232 @@
         <div class="button"><a href="verein.html">Mehr Erfahren</a></div>
     </div>
     
-    <div class="wrapper bilder" id="bilder">
+    
+    <div class="wrapper mitmachen" id="mitmachen">
+       <header>
+            <h1>Mitmachen</h1>
+            <p>Es gibt mehrere Möglichkeiten, dieses Projekt zu unterstützen.</p>
+        </header> 
+        <div class="col4">
+            <div>
+                <div><h2>Fördermitgliedschaft</h2><p>jalkjdflkj</p></div>
+                <div class="button"><a href="details.html"><div class="fa fa-download"></div></a></div>
+            </div>
+            <div>
+                <div><h2>Vollmitgliedschaft</h2><p>jalkjdflkj</p></div>
+                <div class="button"><a href="https://www.facebook.com/neptun.kanalisto"><div class="fas fa-facebook"></div></a></div>
+            </div>
+            <div>
+                <div><h2>Spenden</h2><p>jalkjdflkj</p></div>
+                <div class="button"><a href="https://www.facebook.com/plugins/like.php?href=''"><i class="fa fa-facebook"></i></a></div>
+            </div>
+            <div>
+                <div><h2>Facebooklike</h2><p>jalkjdflkj</p></div>
+                <div class="button"><a href="details.html"><div class="fa fa-download"></div></a></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="wrapper galerie" id="galerie">
         <header>
             <h1>Bilder &amp; Pläne</h1>
             <h2>Der alte Kanal...</h2>
             <p>...bestand bis Ende der 1950er Jahre, bevor sich die Stadtplanung dazu entschied, dem Individualverkehr wesentlich mehr Platz zu gewähren.</p>
         </header>
-        
-        <div class="glider-contain">
-              <div class="glider">
-                    <div><img src="images/alt/a01.jpg"><p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p></div>
-                    <div><img src="images/alt/a02.jpg"><p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p></div>
-                    <div><img src="images/alt/a03.jpg"><p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p></div>
-                    <div><img src="images/alt/a04.jpg"><p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p></div>
-                    <div><img src="images/alt/a01.jpg"><p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p></div>
-                    <div><img src="images/alt/a02.jpg"><p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p></div>
-                    <div><img src="images/alt/a03.jpg"><p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p></div>
-                    <div><img src="images/alt/a04.jpg"><p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p></div>
-                      <div><img src="images/alt/a01.jpg"><p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p></div>
-                    <div><img src="images/alt/a02.jpg"><p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p></div>
-                    <div><img src="images/alt/a03.jpg"><p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p></div>
-                    <div><img src="images/alt/a04.jpg"><p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p></div>
-              </div>
-            <button aria-label="Previous" class="glider-prev">«</button>
-            <button aria-label="Next" class="glider-next">»</button>
-            <div role="tablist" class="dots"></div>
+        <div class="masonry">
+            <div class="brick">
+                <a href="images/alt/a01.jpg" data-lightbox="alter Kanal"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/alt/a01.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a02.jpg" data-lightbox="alter Kanal" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/alt/a02.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a03.jpg" data-lightbox="alter Kanal"
+                   data-title="Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)">
+                    <img src="images/alt/a03.jpg"></a>
+                    <p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a04.jpg" data-lightbox="alter Kanal"
+                   data-title="Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a04.jpg"></a>
+                    <p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a05.jpg" data-lightbox="alter Kanal"
+                   data-title="Der Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a05.jpg"></a>
+                    <p>Der Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a06.jpg" data-lightbox="alter Kanal"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/alt/a06.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a07.jpg" data-lightbox="alter Kanal" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/alt/a07.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a08.jpg" data-lightbox="alter Kanal"
+                   data-title="Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)">
+                    <img src="images/alt/a08.jpg"></a>
+                    <p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a09.jpg" data-lightbox="alter Kanal"
+                   data-title="Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a09.jpg"></a>
+                    <p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a10.jpg" data-lightbox="alter Kanal"
+                   data-title="Der Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a10.jpg"></a>
+                    <p>Der Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a11.jpg" data-lightbox="alter Kanal"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/alt/a11.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a12.jpg" data-lightbox="alter Kanal" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/alt/a12.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a13.jpg" data-lightbox="alter Kanal"
+                   data-title="Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)">
+                    <img src="images/alt/a13.jpg"></a>
+                    <p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a14.jpg" data-lightbox="alter Kanal"
+                   data-title="Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a14.jpg"></a>
+                    <p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a15.jpg" data-lightbox="alter Kanal"
+                   data-title="Der Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a15.jpg"></a>
+                    <p>Der Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a16.jpg" data-lightbox="alter Kanal" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/alt/a16.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a17.jpg" data-lightbox="alter Kanal"
+                   data-title="Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)">
+                    <img src="images/alt/a17.jpg"></a>
+                    <p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a18.jpg" data-lightbox="alter Kanal"
+                   data-title="Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a18.jpg"></a>
+                    <p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
+            <div class="brick">
+                <a href="images/alt/a19.jpg" data-lightbox="alter Kanal"
+                   data-title="Der Hafen am Ludwigskanal bei Poppenreuth">
+                    <img src="images/alt/a19.jpg"></a>
+                    <p>Der Hafen am Ludwigskanal bei Poppenreuth</p>
+            </div>
         </div>
-        <br>
-        <br>
+        <hr>
         <header>
             <h2>Gegenwart: die A73</h2>
-            <p>...blih blaj fklasdkaladkjf.</p>
-        </header> 
-        <div class="glider-contain">
-              <div class="glider2">
-                    <div><img src="images/a73/p01.jpg"><p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p></div>
-                    <div><img src="images/a73/p02.jpg"><p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p></div>
-                    <div><img src="images/a73/p03.jpg"><p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p></div>
-                    <div><img src="images/a73/p04.jpg"><p>Der ausgetrocknete Hafen am Ludwigskanal bei Poppenreuth</p></div>
-                    <div><img src="images/a73/p05.jpg"><p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p></div>
-                    <div><img src="images/a73/p06.jpg"><p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p></div>
-                    <div><img src="images/a73/p07.jpg"><p>Bootspartie im Kanalhafen bei Poppenreuth (vmtl. um 1910)</p></div>
-                </div>
-                <button aria-label="Previous" class="glider2-prev">«</button>
-                <button aria-label="Next" class="glider2-next">»</button>
-                <div role="tablist" class="dots2"></div>
+            <p>...wurde Anfang der 1960er gebaut. Der alte Kanal wurde zugeschüttet und asphaltiert. Bis heute verläuft die Stadtautobahn exakt im ehemaligen Kanalbett.</p>
+        </header>
+        <div class="masonry">
+            <div class="brick">
+                <a href="images/a73/p01.jpg" data-lightbox="a73"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/a73/p01.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
             </div>
-        
-        
-        
-        
-        
-        <br>
-        <br>
-</div>
-
-
+            <div class="brick">
+                <a href="images/a73/p02.jpg" data-lightbox="a73" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/a73/p02.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/a73/p03.jpg" data-lightbox="a73"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/a73/p03.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/a73/p04.jpg" data-lightbox="a73" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/a73/p04.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/a73/p05.jpg" data-lightbox="a73" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/a73/p05.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/a73/p06.jpg" data-lightbox="a73"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/a73/p06.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/a73/p07.jpg" data-lightbox="a73" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/a73/p07.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+         </div>
+        <hr>
+        <header>
+            <h2>Pläne: Der neue, alte Kanal</h2>
+            <p>In näherer Zukunft wird es unumgänglich sein, den Individualverkehr stark einzuschränken. Warum also nicht gleich das Nötige mit Sinnstiftendem verbinden? Durch den Rückbau der Stadtautobahn mitsamt ihren Zubringern würde ein riesiges Areal inmitten der Stadt frei, welches zur Naherholung, Gewerbe und Naturgebietes genutzt werden könnte. Davon würde die Stadt Nürnberg und Fürth im Gegensatz zum derzeitig rollenden Durchgangsverkehr stark profitieren.</p>
+        </header>
+        <div class="masonry col3">
+            <div class="brick">
+                <a href="images/neu/n01.jpg" data-lightbox="neu"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/neu/n01.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+            <div class="brick">
+                <a href="images/neu/n02.jpg" data-lightbox="neu" 
+                   data-title="Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)">
+                    <img src="images/neu/n02.jpg"></a>
+                <p>Bade-Schwimmveranstaltung im Kanalhafen Fürth bei Poppenreuth (vllt. 1900)</p>
+            </div>
+            <div class="brick">
+                <a href="images/neu/n03.jpg" data-lightbox="neu"
+                   data-title="Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.">
+                    <img src="images/neu/n03.jpg"></a>
+                <p>Das Hafenbecken an den Rampen Gostenhof-Rothenburger Strasse. Der Grund, warum es bis heute bspw. die Mittlere Kanalstraße in Gostenhof gibt.</p>
+            </div>
+        </div>
+    </div>
     
     
     

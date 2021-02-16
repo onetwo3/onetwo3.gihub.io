@@ -80,7 +80,14 @@ nav .item.active {
   nav .item {
     order: 1;
   }
-  nav .menu li {
-    /*padding: 15px 10px;*/
-  }
+  nav .item:after{
+    content: '\00B7';
+    padding-left: 15px;
+    position: absolute;
+    color: white;
+    }
+    nav .item:last-child:after {
+        content: none;
+    }
 }
+
