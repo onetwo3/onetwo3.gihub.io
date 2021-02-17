@@ -27,6 +27,9 @@ h2 {
     font-size: 1.5em;
     padding: 0.7em;
 }
+.center {
+    text-align: center;
+}
 /*+++COLUMNS+++*/
 .col2 {
     display: grid;
@@ -98,7 +101,21 @@ h2 {
     color: white;
     text-align: center;
 }
-
+.wrapper.similar {
+    
+}
+.wrapper.media {
+    background: #555555;
+    color: white;
+    min-height: 50px;
+}
+.wrapper.footer {
+    min-height: 0;
+}
+wrapper.footer * {
+    padding-left: 45px;
+    border: 1px solid red;
+}
 /*+++BILDER+++*/
 .wrapper.galerie {
     background: #82b440;
