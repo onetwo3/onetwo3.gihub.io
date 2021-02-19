@@ -34,6 +34,9 @@ a {
 .center {
     text-align: center;
 }
+.bottom {
+    
+}
 /*+++COLUMNS+++*/
 .col2 {
     display: grid;
@@ -90,6 +93,13 @@ a {
 .wrapper.verein {
     background: #555555;
     color: white;
+}
+/*+++KONTAKT+++*/
+.wrapper.contact {
+    background: #555555;
+    color: white;
+    padding: 10px;
+    
 }
 .verein .button a {
     visibility: hidden;
