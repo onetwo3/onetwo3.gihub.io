@@ -12,6 +12,7 @@ html {
     text-decoration: none;
     font-family: 'PT Sans', 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    font-size: 1em;
     /*color: #444;*/
     
 }
@@ -30,6 +31,9 @@ h2 {
 a {
     text-decoration: none;
     color: white;
+}
+hr {
+    margin: auto 10px 20px;
 }
 .center {
     text-align: center;
@@ -78,6 +82,7 @@ a {
     text-transform: uppercase;
     font-weight: 300;
 }
+/*+++HOME Unterseiten+++*/
 .wrapper.home2 {
     min-height: inherit;
     min-width: 250px;
@@ -85,72 +90,92 @@ a {
     text-transform: uppercase;
     font-weight: 300;
 }
+
 /*+++KANAL+++*/
 .wrapper.kanal {
     
 }
+
+
 /*+++VEREIN+++*/
 .wrapper.verein {
     background: #555555;
     color: white;
 }
-/*+++KONTAKT+++*/
-.wrapper.contact {
-    background: #555555;
-    color: white;
-    padding: 10px;
-    
-}
 .verein .button a {
     visibility: hidden;
     background-color: #bbbbbb;
-  color: #555555;
+    color: #555555;
 }
 .verein .button a:hover, .verein .button a:active {
     background-color: #ddd;
 }
+
+
 /*+++MITMACHEN+++*/
 .wrapper.mitmachen {
     background: cornflowerblue ;
     color: white;
     text-align: center;
 }
-.wrapper.similar {
-    
-}
-/*+++KONTAKT+++*/
 
-.contact {
-    background: #555555;
-    color: white;
-    min-height: 50px;
-    
+/*+++PROJEKTE+++*/
+.wrapper.projekte {
+
 }
-.contact a {
-    padding: 0 40px;
-    opacity: 0.8;
-    
-}
-.contact a:hover {
-    opacity: 1;
-}
-/*+++FOOTER+++*/
-.wrapper.footer {
-    min-height: 0;
-    padding: 20px;
-}
-.wrapper.footer * {
-    padding: 0 45px;
-    color: black;
-}
-/*+++BILDER+++*/
+
+
+/*+++GALERIE+++*/
 .wrapper.galerie {
     background: #82b440;
     color: white;
+    
 }
 
 
-.wrapper.details .fas, h3 {
+/*+++KONTAKT+++*/
+.wrapper.contact {
+    background: #555555;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.contact a {
+    margin: auto 40px 10px;
+    opacity: 0.6;
+    font-size: 3em;
+}
+.contact a:hover, .contact a:active {
+    opacity: 1;
+}
+.contact p {
+    font-size: 0.3em;
+    margin-top: 5px;
+    
+}
+
+
+/*+++FOOTER+++*/
+.wrapper.footer {
+    background: #555555;
+    color: white;
+    padding: 10px;
+    min-height: 50px;
+    
+}
+.footer a {
+    margin: auto 40px 10px;
+    opacity: 0.8;
+}
+.footer a:hover, .footer a:active {
+    opacity: 1;
+}
+
+
+
+/*+++DETAILS.HTML+++*/
+.wrapper.details .fas, wrapper.details h3 {
     display: inline-block;
     white-space: nowrap;
     color: #82b440;
@@ -176,16 +201,15 @@ header p {
     padding: 3em 0 1em;
 }
 .button a {
-  background-color: #82b440;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
+    background-color: #82b440;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
-  display: inline-block;
-  border-radius: 4px;
+    display: inline-block;
+    border-radius: 4px;
 }
-
 .button a:hover , .button a:active  {
-  background-color: #72a430;
+    background-color: #72a430;
 }
