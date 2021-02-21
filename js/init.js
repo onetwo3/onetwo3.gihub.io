@@ -1,7 +1,7 @@
 new Glider(document.querySelector('.glider'), {
   slidesToShow: 1,
   slidesToScroll: 1,
-  draggable: true,
+  draggable: false,
   dots: '.dots',
   arrows: {
     prev: '.glider-prev',
