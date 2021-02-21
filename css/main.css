@@ -38,10 +38,9 @@ hr {
 .center {
     text-align: center;
 }
-.bottom {
-    
-}
-/*+++COLUMNS+++*/
+
+
+/*+++GRID+++*/
 .col2 {
     display: grid;
     column-count: 2;
@@ -61,6 +60,7 @@ hr {
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-column-gap: 3em;
 }
+
 
 
 /*+++WRAPPER+++*/
@@ -118,6 +118,32 @@ hr {
     text-align: center;
 }
 
+.mitmachen .col4 {
+    column-gap: 20px;
+}
+.mitmachen .col4 > div {
+    display: grid;
+    align-items: end;
+}
+.mitmachen .top {
+    align-self: start;
+}
+.mitmachen .bottom {
+    align-self: end;   
+}
+.mitmachen a {
+    margin: auto 40px 10px;
+    opacity: 0.6;
+    font-size: 3em;
+}
+.mitmachen a:hover, .contact a:active {
+    opacity: 1;
+}
+.mitmachen p {
+    margin-top: 5px;
+    
+}
+
 /*+++PROJEKTE+++*/
 .wrapper.projekte {
 
@@ -136,9 +162,10 @@ hr {
 .wrapper.contact {
     background: #555555;
     color: white;
-    padding: 10px;
-    min-height: 50px;
+    padding: 50px;
+   min-height: 5em;
 }
+
 
 .contact a {
     margin: auto 40px 10px;
@@ -184,13 +211,13 @@ hr {
 
 /*+++HEADER+++*/
 header {
-    padding-bottom: 4vw;
 }
 header h1 {
     text-transform: uppercase;
 }
 header p {
     font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
 
