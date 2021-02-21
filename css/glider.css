@@ -12,10 +12,12 @@
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   transform: translateZ(0);
+     
 }
 .glider img {
     width: 100%;
     height: auto;
+    padding: 10px;
 }
 .glider-track {
   transform: translateZ(0);
