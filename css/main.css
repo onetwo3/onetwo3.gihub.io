@@ -146,7 +146,7 @@ hr {
 
 /*+++PROJEKTE+++*/
 .wrapper.projekte {
-
+    min-height: 0;
 }
 
 
@@ -220,12 +220,13 @@ hr {
 
 
 /*+++DETAILS.HTML+++*/
-.wrapper.details .fas, wrapper.details h3 {
+.wrapper.details .fas, .wrapper.details h3 {
     display: inline-block;
     white-space: nowrap;
     color: #82b440;
     padding: 5px 20px 10px;
 }
+
 
 
 /*+++HEADER+++*/
