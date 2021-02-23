@@ -72,16 +72,26 @@ hr {
     
 }
 /*+++HOME+++*/
+
 .wrapper.home {
-    background-image: url(../images/Logo_NFSK_V2.png), url(../images/banner.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: center center, center center;
-    background-size: 30%, cover;
-    min-width: 250px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*min-width: 250px;*/
     padding: 2vh 5vw 0vh;
     text-transform: uppercase;
     font-weight: 300;
 }
+
+.logo {
+    height: 90vh;
+    background-image: url(../images/Logo_NFSK_V2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75vh;
+}
+
 /*+++HOME Unterseiten+++*/
 .wrapper.home2 {
     min-height: inherit;
