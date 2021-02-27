@@ -86,10 +86,10 @@ hr {
 
 .logo {
     height: 90vh;
-    background-image: url(../images/Logo_NFSK_V2.png);
+    background-image: url(../images/logo/Logo_NFSK_RGB_V2.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 75vh;
+    background-size: 50vh;
 }
 
 /*+++HOME Unterseiten+++*/
@@ -141,17 +141,22 @@ hr {
 .mitmachen .bottom {
     align-self: end;   
 }
-.mitmachen a {
-    margin: auto 40px 10px;
+.mitmachen a, .mitmachen button {
+    margin: auto 40px 0px;
     opacity: 0.6;
     font-size: 3em;
+    border: none;
+    background: none;
+    color: inherit;
 }
-.mitmachen a:hover, .contact a:active {
+.mitmachen a:hover, .mitmachen a:active,
+.mitmachen button:hover, .mitmache button:active {
     opacity: 1;
+    cursor: pointer;
 }
 .mitmachen p {
     margin-top: 5px;
-    
+    margin-bottom: 10px;
 }
 
 /*+++PROJEKTE+++*/
