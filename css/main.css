@@ -123,7 +123,7 @@ hr {
 
 /*+++MITMACHEN+++*/
 .wrapper.mitmachen {
-    background: cornflowerblue ;
+    background: cornflowerblue;
     color: white;
     text-align: center;
 }
@@ -168,6 +168,7 @@ hr {
 /*+++GALERIE+++*/
 .wrapper.galerie {
     background: #82b440;
+    /*background: #3ca432;*/
     color: white;
     
 }
@@ -191,7 +192,13 @@ hr {
     height: 1000px;
     
 }
-
+.galerie .button a {
+    background-color: #bbbbbb;
+    color: #555555;
+}
+.verein .button a:hover, .verein .button a:active {
+    background-color: #ddd;
+}
 /*+++KONTAKT+++*/
 .wrapper.contact {
     background: #555555;
