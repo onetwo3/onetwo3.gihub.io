@@ -126,20 +126,43 @@ hr {
     background: cornflowerblue;
     color: white;
     text-align: center;
+    min-height: 30vh;
 }
 
 .mitmachen .col4 {
-    column-gap: 20px;
+    column-gap: 10px;
+    
 }
 .mitmachen .col4 > div {
     display: grid;
-    align-items: end;
+    /*align-items: end;*/
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 15px;
+    align-content: flex-start;
+    
+    
 }
+
+.mitmachen .col4 > div > div {
+    box-sizing: border-box;
+    
+    
+}
+.mitmachen a, .mitmachen h2 {
+    display: inline-block;
+    white-space: nowrap;
+} 
+
 .mitmachen .top {
-    align-self: start;
+    /*align-self: start;
+    border: 1px solid red;*/
+    
 }
 .mitmachen .bottom {
-    align-self: end;   
+    /*align-self: top;
+    border: 1px solid black;  */  
 }
 .mitmachen a, .mitmachen button {
     margin: auto 40px 0px;
@@ -153,6 +176,8 @@ hr {
 .mitmachen button:hover, .mitmache button:active {
     opacity: 1;
     cursor: pointer;
+    border: none;
+    background: none;
 }
 .mitmachen p {
     margin-top: 5px;
