@@ -189,7 +189,9 @@ hr {
 .wrapper.projekte {
     min-height: 0;
 }
-
+.projekte a {
+    color: black;
+}
 
 /*+++GALERIE+++*/
 .wrapper.galerie {
