@@ -113,7 +113,8 @@ strong {
 
 /*+++VEREIN+++*/
 .wrapper.verein {
-    background: #555555;
+    background: #444444;
+    background: radial-gradient(#666666, #444444);
     color: white;
 }
 .verein .button a {
@@ -127,7 +128,9 @@ strong {
 
 /*+++MITMACHEN+++*/
 .wrapper.mitmachen {
-    background: cornflowerblue;
+    /*background: cornflowerblue;*/
+    background: #004E9A;
+    background: radial-gradient(#226FBD, #004E9A);
     color: white;
     text-align: center;
     min-height: 30vh;
@@ -196,8 +199,9 @@ strong {
 
 /*+++GALERIE+++*/
 .wrapper.galerie {
-    background: #82b440;
-    /*background: #3ca432;*/
+    /*background: #82b440;*/
+    background: #3CA432;
+    background: radial-gradient(#5EC654, #3CA432);
     color: white;
     
 }
